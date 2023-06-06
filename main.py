@@ -3,19 +3,19 @@ from flask_pymongo import PyMongo
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 app = Flask(__name__)  
  
-
-app.config["MONGO_URI"] ="mongodb+srv://vsurya302003:surya%402003@cluster0.jnlfctw.mongodb.net/chatgpt"
+#your Mongo db cluster URL should be specified in the url with the database name also
+app.config["MONGO_URI"] ="mongodb+srv://vsurya302003:surya%402003@cluster0.jnlfctw.mongodb.net/database name" 
 mongo = PyMongo(app)
 
 
 
 @app.route("/")
 def home():
-    chats = mongo.db.chats.find({})
+    chats = mongo.db.chats.find({}) # here chats is a collection in database
     myChats = [chat for chat in chats]
     print(myChats)
     return render_template("index.html", myChats = myChats)
