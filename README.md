@@ -35,8 +35,10 @@ To get started with this project, follow these steps:
 6. Open the `app.py` file and replace `YOUR_API_KEY` with your actual OpenAI API key.
 7. Save the changes and exit the file.
 8. Create a cluster using mongodb atlas and connect the mongodb database with the app.
-9. Start the Flask development server: `python main.py`
-10. Open your web browser and navigate to `http://localhost:5000` to access the chatbot interface.
+9.  Connect the TailwindCSS with HTML file 
+10.  Run Tailwind using `npm run tailwind`
+11. Start the Flask development server: `python main.py`
+12. Open your web browser and navigate to `http://localhost:5000` to access the chatbot interface.
 
 ## Usage
 
