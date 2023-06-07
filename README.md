@@ -54,7 +54,9 @@ Please note that while this chatbot aims to provide realistic and informative re
 
 ## Screenshots
 
-![Output Screenshot](https://github.com/Vsurya30/Tictactoe/blob/main/Tic-Tac-Toe.png)
+![Output Screenshot](https://github.com/Vsurya30/GPTclone/blob/main/chatgptclone.png)
+![](https://github.com/Vsurya30/GPTclone/blob/main/chatgptclone2.png)
+
 
 
 ## Acknowledgements
