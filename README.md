@@ -52,6 +52,10 @@ You can customize the behavior of the chatbot by modifying the code in `main.py`
 
 Please note that while this chatbot aims to provide realistic and informative responses, it may occasionally generate incorrect or nonsensical answers. This is a known limitation of language models and should be taken into consideration when using the chatbot.As of now It takes only one input at a time and you need to refresh it.
 
+## Screenshots
+
+![Output Screenshot](https://github.com/Vsurya30/Tictactoe/blob/main/Tic-Tac-Toe.png)
+
 
 ## Acknowledgements
 
